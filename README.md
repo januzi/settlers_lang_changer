@@ -15,7 +15,7 @@ The main requirement is that you have the new client installed in the **default 
 In the **Firefox** open the main menu, go into the options and scroll the screen down to the applications list. In that list look for "tso" and then switch the default "settlers client" to the "different application" and point to the tso.exe.
 
 As for the **Chrome** you will have to use regedit: 
-click start, then type "regedit" and wait for Windows to show the suggestion (administration right will be needed)
+click start, then type **regedit** and wait for Windows to show the suggestion (administration rights will be needed)
 then look for the **HKEY_CLASSES_ROOT\tso\shell\open\command** and change the value of that node. 
 
 The default value will be something like:
