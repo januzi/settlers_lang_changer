@@ -20,20 +20,20 @@ int main(int argc, char** argv) {
 	
 	if( argc > 1) {
 	   adres = argv[1];
-    }
+        }
 	std::string test;
 	std::string appdata = getenv("APPDATA");
 	replace(appdata,"Roaming","");	
 	appdata+="Local\\Ubisoft\\The Settlers Online\\The Settlers Online.exe" ; 
-    //std::cout << argv[1] << std::endl;
-    replace(adres,"de-de",lang1);
-    replace(adres,"realmLang=de","realmLang="+lang2);
+        //std::cout << argv[1] << std::endl;
+        replace(adres,"de-de",lang1);
+        replace(adres,"realmLang=de","realmLang="+lang2);
     
     
-    //std::cout << adres << std::endl;
-    //std::cin >> test ;
+        //std::cout << adres << std::endl;
+        //std::cin >> test ;
 	const char * adres_c = adres.c_str();
 	const char * appdata_c = appdata.c_str(); 
-    ShellExecute(NULL, "open", appdata_c, adres_c, NULL, SW_SHOWDEFAULT);
-    return 0;
+        ShellExecute(NULL, "open", appdata_c, adres_c, NULL, SW_SHOWDEFAULT);
+        return 0;
 }
