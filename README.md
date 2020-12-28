@@ -16,11 +16,16 @@ In the **Firefox** open the main menu, go into the options and scroll the screen
 
 As for the **Chrome** you will have to use regedit: 
 click start, then type "regedit" and wait for Windows to show the suggestion (administration right will be needed)
-then look for the HKEY_CLASSES_ROOT\tso\shell\open\command and change the value of that node. 
+then look for the **HKEY_CLASSES_ROOT\tso\shell\open\command** and change the value of that node. 
+
 The default value will be something like:
+
 "C:\Users\blahblah\AppData\Local\Ubisoft\The Settlers Online\The Settlers Online.exe" "%1"
+
 so, you are going to change it into something like:
+
 "C:\directory\tso.exe" "%1" 
+
 The part "C:\directory\" of course have to point into the directory where you'd put the tso.exe file. 
 
 **Opera**, **IE**, etc. sorry, you'd have to find out by yourself how to change the default application. 
