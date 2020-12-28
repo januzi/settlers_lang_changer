@@ -32,3 +32,5 @@ The part "C:\directory\" of course have to point into the directory where you'd 
 
 # Other things
 The included tso.exe was created for the x64, so it will only work in **64bit system**. The other thing is that sometimes the new client whines about not being executed directly from the browser. You may ignore that error. Right now it's not important.
+
+It will change the language to **polish**, so if you are wanting it in different language (and can't edit&compile the source), then sorry, I'm too lazy to make a proper language setting in the app. 
